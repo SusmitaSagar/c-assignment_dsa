@@ -2,9 +2,7 @@
 //using ‘call by value’ and ‘call by reference’ strategies.
 #include<iostream>
 using namespace std;
-
 void swap(int,int);
-
 int main()
 {
         int a,b;
@@ -12,15 +10,10 @@ int main()
         cin>>a;
         cout<<"\nEnter Value of B :: ";
         cin>>b;
-
         cout<<"\nBefore Swapping, Value of :: \n\tA = "<<a<<"\tB = "<<b<<"\n";
-
         swap(a,b);
-
         cout<<"\nOutside Function After Swapping, Value of :: \n\tA = "<<a<<"\tB = "<<b<<"\n";
 }
-
-
 void swap(int a,int b)
 {
         int c;
